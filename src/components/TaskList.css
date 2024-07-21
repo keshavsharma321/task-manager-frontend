@@ -1,0 +1,39 @@
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .task-list-header {
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .header-item {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+  
+  .item-detail {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .item-actions {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+  }
+  
